@@ -9,14 +9,17 @@ const Dropdown = (props:Props) =>{
     const onChange = (e: any) => {
         setSelectedOption({  value: e.target.value });
       };
+    // const RenderDropDown=()=>{
+    //     return (
+    //         dataList.map((option:any)=><option value={selectedOption} onChange={onChange}>{option}</option>
+    //             )
+    //     )
+    // }
+    const RenderOptions = dataList.map((option:any)=><option>{option}</option>)
     return(
-        dataList.map((option:any)=>{
-            return(
-                <select value={selectedOption} onChange={onChange}>
-                    <option value={selectedOption} >{option}</option>
-                </select>
-            )
-        }) 
+       <select name="" id="">
+           {RenderOptions}
+       </select>  
     )
 }
 export default Dropdown

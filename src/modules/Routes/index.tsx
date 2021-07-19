@@ -11,6 +11,7 @@ import DailyUserLimitsMaintenance from '../../components/Settings/DailyUserLimit
 import BankLevelLimitsMaintenance from '../../components/Settings/BankLevelLimitsMaintenance'
 import Settings from '../../components/Settings'
 import Edit from '../../components/Settings/Edit'
+import CreateMessage from '../../components/Settings/GlobalServiceMessage/CreateMessage'
 
 
 const Auth = lazy(() => import('../Auth'))
@@ -39,6 +40,7 @@ const Routes:React.FC = () => {
                             <Route path={`${path}/daily-user-limits-maintenace`} component={DailyUserLimitsMaintenance} />
                             <Route path={`${path}/global-service-message`} component={GlobalServiceMessage} />
                             <Route path={'/settings/settings-edit'} component={Edit} />
+                            <Route path={'/settings/create-global-service-message'} component={CreateMessage} />
                             <Redirect exact from={path+"/*"} to={path}/>
                             </Switch>
                         </Setting>
