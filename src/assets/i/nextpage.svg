@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <g id="Group_8839" data-name="Group 8839" transform="translate(-1387 -41)">
+      <g id="Group_8682" data-name="Group 8682">
+        <g id="icon_notification_copy" data-name="icon/notification copy" transform="translate(1388 42)">
+          <path id="Path_1416" d="M5.333,16H1.778A1.778,1.778,0,0,1,0,14.222V1.778A1.778,1.778,0,0,1,1.778,0H5.333" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path_1417" d="M0,8.889,4.445,4.444,0,0" transform="translate(11.555 3.556)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Line_490" d="M10.666.5H0" transform="translate(5.333 7.501)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </svg>

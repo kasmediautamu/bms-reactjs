@@ -1,0 +1,13 @@
+<svg id="Symbols" xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+    <g id="icon_credit-cash-money" data-name="icon/credit-cash-money" transform="translate(0 -4)">
+      <g id="Group-38" transform="translate(0 4)">
+        <rect id="Rectangle" width="22" height="14" rx="1" transform="translate(1 1)" fill="none" stroke="#003d4c" stroke-width="2"/>
+        <circle id="Oval" cx="3" cy="3" r="3" transform="translate(9 5)" fill="none" stroke="#003d4c" stroke-width="2"/>
+        <path id="Combined-Shape" d="M20,2a2,2,0,0,0,2,2V6h0a4,4,0,0,1-4-4Z" fill="#003d4c"/>
+        <path id="Combined-Shape-Copy" d="M4-2A2,2,0,0,1,6-4V-6H6A4,4,0,0,0,2-2Z" transform="translate(8) rotate(180)" fill="#003d4c"/>
+        <path id="Combined-Shape-2" data-name="Combined-Shape" d="M20,10a2,2,0,0,0,2,2v2h0a4,4,0,0,1-4-4Z" transform="translate(32 -8) rotate(90)" fill="#003d4c"/>
+        <path id="Combined-Shape-Copy-2" d="M4-10a2,2,0,0,1,2-2v-2H6a4,4,0,0,0-4,4Z" transform="translate(-8 8) rotate(90)" fill="#003d4c"/>
+      </g>
+    </g>
+  </svg>
+ 

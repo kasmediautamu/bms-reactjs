@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="62.395" viewBox="0 0 43 62.395">
+    <g id="Group_8689" data-name="Group 8689" transform="translate(-33 -97)">
+      <path id="Rectangle" d="M16,0H41a2,2,0,0,1,2,2V41a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V16A16,16,0,0,1,16,0Z" transform="translate(33 97)" fill="#e7f0ef" opacity="0.3"/>
+      <text id="label" transform="translate(54 155.395)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-20.227" y="0">Search</tspan></text>
+      <g id="Group_11983" data-name="Group 11983" transform="translate(9177.086 10691)">
+        <circle id="Ellipse_419" data-name="Ellipse 419" cx="7" cy="7" r="7" transform="translate(-9127.086 -10581)" fill="#00d1b6" opacity="0"/>
+        <g id="Group_11980" data-name="Group 11980" transform="translate(-9132.905 -10581)">
+          <path id="Rectangle-2" data-name="Rectangle" d="M6.286,0h0V6.286H0A6.286,6.286,0,0,1,6.286,0Z" transform="translate(18.772 1.048) rotate(90)" fill="#003d4c" stroke="#003d4c" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+          <g id="Symbols" transform="translate(0 0)">
+            <g id="icon_search" data-name="icon/search" transform="translate(0)">
+              <circle id="Oval" cx="7" cy="7" r="7" transform="translate(5.819)" fill="none" stroke="#00d1b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              <path id="Path-4" d="M14,3.611V10.3h7.333" transform="translate(-1.514 -2.971)" fill="none" stroke="#00d1b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+              <line id="Line" x1="8" y2="8" transform="translate(-0.181 12)" fill="none" stroke="#00d1b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>

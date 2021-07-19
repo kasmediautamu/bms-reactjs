@@ -1,0 +1,22 @@
+
+.left-nav {
+    background-color: #001F26;
+    max-width: 7.5%;
+    height:100vh;
+    overflow: hidden;
+    position: fixed;
+    
+    ul {
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        padding-left:0px;
+        margin:0px;
+        .nav-item {
+            text-align:center;
+            padding-top: 30px;
+            cursor: pointer;
+        }
+    }
+}

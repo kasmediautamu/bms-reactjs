@@ -1,0 +1,221 @@
+.account-details{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #F2F2F2;
+    .account__info{
+        flex-basis: 28%;
+        padding:15px;
+        // border:20px solid#F2F2F2;
+        background-color: #FFF;
+        border-radius: 6px;
+        margin:20px;
+    }
+    
+    .account__preview{
+            width:100%;
+            padding-left: 20px;
+            margin-left:35px;
+            .account__preview--type{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                max-width: 73%;
+                p{
+                    margin-top:15px;
+                    margin-bottom: 10px;
+                    color:#003D4B;
+                    font-size:14px;
+                    line-height: 19px;
+                    font-weight: bold;
+                }
+            }
+            .account__preview--open-date{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                p{
+                    margin:0px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    line-height: 19px;
+                }
+                p:first-child{
+                    background-color: #00A793;
+                    border-radius: 3px;
+                    color:#FFF;
+                    padding:2px 15px;
+                    margin-right:15px;
+                }
+                p:last-child{
+                    color:#001E25;
+                }
+            }
+            .account__preview--account-number{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                max-width: 65%;
+                margin-top:30px;
+            > div{
+
+                p{
+                    color:#003D4B;
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+                 p:first-child{
+                    text-transform: uppercase;
+                 } 
+                 p:last-child{
+                     font-weight: bold;
+                     text-transform: capitalize;
+                 }  
+
+                }
+            }
+        
+    }
+    .account__info--header {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: #003E4E;
+        margin-top:60px;
+    }
+    .account__info--details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right:30px;
+        .details__item{
+            flex-basis: 45%;
+            p{
+                color:#003D4C;
+            }
+            p:first-child{
+                text-transform: uppercase;
+                font-size: 10px;
+            }
+            p:last-child{
+                font-size: 14px;
+                text-transform: capitalize;
+            }
+        }
+        .details__item:nth-of-type(6), .details__item:nth-of-type(8){
+            p:last-child{
+                font-weight: bold;
+                color:#1B806D;
+            }
+        }
+        
+    }
+    .account__details{
+        flex-basis:69%;
+        background-color: #FFF;
+        padding:20px;
+        margin:20px 20px 20px 0px;
+        border-radius: 6px;
+        .account__details--item{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            >div:nth-of-type(1){
+                display:flex;
+                align-items: baseline;
+                p{
+                    margin:0px;
+                    color:#003D4C;
+                    font-size:16px;
+                    font-weight: bold;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                }
+                span {
+                    color: #1B806D;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                img{
+                    padding-right:20px;
+                }
+               
+            }
+            >div:last-child{
+                img{
+                    margin-right:15px;
+                }
+                img:last-child{
+                    margin-right: 0px;
+                }
+            }
+
+        }
+        .account__details--item:nth-of-type(1){
+            max-width: 25%;
+            p{
+                color:#003D4C;
+                font-size:16px;
+                font-weight: bold;
+                line-height: 22px;
+                text-transform: capitalize;
+            }
+        }
+        .account__details--item:nth-of-type(5){
+            >div{
+                img {
+                    margin-right:0px;
+                }
+            }
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .account__details--item:nth-of-type(2),.account__details--item:nth-of-type(3),.account__details--item:nth-of-type(4){
+            border-bottom: 1px solid #E6EAEB;
+            padding-bottom:15px;
+            padding-top:15px;
+        }
+        table{
+            width:100%;
+            padding-top: 15px;
+            tr{
+                td{
+                    white-space: nowrap;
+                    p{
+                        color:#003D4C;
+                        font-size: 10px;
+                        text-transform: uppercase;
+                    }
+                }
+                td:first-child{
+                    display:flex;
+                    p{
+                        white-space: nowrap;
+                    }
+                    img:first-child{
+                        padding-right:15px;
+                    }
+                    img:last-child{
+                        padding-left:15px;
+                    }
+                }
+                td:nth-of-type(1) ~ td{
+                    p:last-child{
+                        font-size: 12px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+    hr {
+        border-color: #E6EAEB;
+        margin:0px -20px;
+    }
+}

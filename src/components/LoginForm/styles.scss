@@ -1,0 +1,97 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 120px;
+  }
+  .login-form {
+    background-color: #ffffff;
+    max-width: 33%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 65px;
+    .login-form_heading {
+      span {
+        color: #00a793;
+      }
+      max-width: 80%;
+      padding-left: 10px;
+    }
+    fieldset {
+      border: none;
+      .validation-error{
+        color:#D51B1B;
+        font-size:14px;
+        line-height:20px;
+        
+      }
+      .user-id_forgot {
+        color: #1b806d;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: calc(16 / 22);
+      }
+      .user-id_label {
+        color: #003d4c;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: calc(14 / 19);
+        padding-bottom: 10px;
+      }
+      .form-field {
+        min-height: 40px;
+        min-width: 100%;
+        padding-left: 10px;
+        color: #003d4c;
+        font-size: 14px;
+        border-radius: 5px;
+        
+      }
+      .validInput {
+        border-style: solid;
+        border-color: #d8d8d8;
+      }
+      .invalidInput {
+        border-style: solid;
+        border-color: #D51B1B;
+      }
+      .form-field::placeholder {
+        color: #003d4c;
+        font-size: 14px;
+      }
+      .form-field:focus {
+        outline: none;
+      }
+    }
+    .user-id_fieldset {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+    .user-id_btns {
+      padding-top: 30px;
+      display: flex;
+      justify-content: flex-end;
+      .user-id_btn {
+          background-color: #DFDFDF;
+          border-radius:20px;
+          border:none;
+          padding-left: 50px;
+          padding-right: 50px;
+          margin-left:30px;
+        cursor: pointer;
+      }
+      .active {
+        background-color: #09D1B6;
+        border-radius:20px;
+        border:none;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left:30px;
+      cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="26" viewBox="0 0 22 26">
+  <g id="icon_profile" data-name="icon/profile" transform="translate(-4.333 -1.666)">
+    <circle id="Oval" cx="4.596" cy="4.596" r="4.596" transform="translate(10.737 2.666)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_Copy" data-name="Path Copy" d="M10.112,0A10.112,10.112,0,0,1,0,10.112L.013,0Z" transform="translate(15.222 26.666) rotate(-90)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path" d="M10.112,10.112A10.112,10.112,0,0,0,0,0L.013,10.112" transform="translate(5.333 26.666) rotate(-90)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

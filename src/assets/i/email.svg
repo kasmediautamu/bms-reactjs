@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g id="Group_11" data-name="Group 11" transform="translate(0 -2)">
+      <g id="icon_mail" data-name="icon/mail" transform="translate(0 2)">
+        <g id="Group" transform="translate(2 5)">
+          <path id="Stroke_1" data-name="Stroke 1" d="M20,15H0V0H20Z" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path" d="M0,0,10,11,20,0" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path-2" data-name="Path" d="M5.924,0A6.266,6.266,0,0,1,0,6.173" transform="translate(9.874 10.365) rotate(-135)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+  

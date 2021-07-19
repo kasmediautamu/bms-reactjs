@@ -1,0 +1,115 @@
+.settings{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #F2F2F2;
+    .settings__left{
+        flex-basis: 28%;
+        padding:15px;
+        background-color: #FFF;
+        border-radius: 6px;
+        margin:20px;
+        
+    }
+    .settings__right{
+        flex-basis:69%;
+        background-color: #FFF;
+        padding:20px;
+        margin:20px 20px 20px 0px;
+        border-radius: 6px;
+        hr{
+            margin-right:-20px;
+            margin-left:-20px;
+            margin-bottom:15px;
+        }
+        .settings__details--header{
+            display:flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            >div:first-child{
+                display:flex;
+            }
+            img{
+               padding-right:20px;
+            }
+            p{
+                color:#003E4E;
+                font-size: 16px;
+                font-weight: bold;
+                line-height:22px;
+            }
+        }
+    }
+    .settings-button{
+        background-color: #09D1B6;
+        border-radius: 24px;
+        color:#001F26;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        padding:15px 40px;
+        border:none;
+    }
+    .settings__list{
+        >div{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #E6EAEB;
+        padding-bottom: 20px;
+        padding-top:20px;
+        .left{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            >img{
+                padding-right:20px;
+            }
+            >div{
+                p{
+                    margin:0px;
+                }
+                p:first-child{
+                    color:#003E4E;
+                    font-size:16px;
+                    font-weight: bold;
+                    line-height: 22px;
+                }
+                p:last-child{
+                    span{
+                        padding-right:5px;
+                    }
+                    text-transform: capitalize;
+                    color:#1B806D;
+                    font-size: 14px;
+                    line-height: 19px;
+                    small{
+                        padding-right:5px;
+                    }
+                }
+            }
+        }
+        .right{
+            img{
+                padding-top:15px;
+                cursor: pointer;
+            }
+            img:first-child{
+                padding-right: 10px;
+            }
+        }
+    }
+}
+}
+.update-tip-content{
+    p{
+        margin:0px;
+    }
+}
+.hide{
+    display:none;
+}

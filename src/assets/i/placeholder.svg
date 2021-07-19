@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.599" height="38.477" viewBox="0 0 30.599 38.477">
+    <g id="Group_4989" data-name="Group 4989" transform="translate(1 1)">
+      <g id="Group_5_Copy" data-name="Group 5 Copy" transform="translate(0 0)">
+        <g id="Group_4" data-name="Group 4" transform="translate(0 0)">
+          <path id="Stroke_1" data-name="Stroke 1" d="M17.307,0H0V36.477H28.6v-25.6" transform="translate(0 0)" fill="none" stroke="#003a4b" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Stroke_3" data-name="Stroke 3" d="M0,0A11.027,11.027,0,0,1,11.118,10.934H0Z" transform="translate(17.481)" fill="#f9f9f9" stroke="#003d4c" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="icon_file" data-name="icon/file" transform="translate(9.812 22.439)">
+        <g id="Group">
+          <path id="Path" d="M8.828.414H0" transform="translate(0 -0.414)" fill="none" stroke="#003d4c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </svg>

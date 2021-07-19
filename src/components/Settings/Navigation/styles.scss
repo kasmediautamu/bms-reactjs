@@ -1,0 +1,33 @@
+.settings__nav{
+display:flex;
+flex-direction: column;
+flex-basis: 28%;
+        padding:15px;
+        background-color: #FFF;
+        border-radius: 6px;
+        margin:20px;
+}
+.settings__header{
+    color:#003E4E;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.settings__options{
+        padding-bottom:30px;
+        color:#1B806D;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 19px;
+        text-decoration: none;
+        cursor: pointer;
+    .link-active{
+        background-color: #F1F1F1;
+        border-radius: 4px;
+        color:#001F26;
+    }
+
+}
+.settings__options:last-child{
+    padding-bottom: 0px;
+}
