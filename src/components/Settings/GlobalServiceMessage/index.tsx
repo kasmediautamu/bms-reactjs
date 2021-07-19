@@ -1,13 +1,23 @@
-import React from 'react'
-import SettingsList from '../SettingsList'
+import React from "react";
+import { useHistory } from "react-router";
+import EmptySettings from "../EmptySettings";
+import SettingsButton from "../SettingsButton";
 
-import './styles.scss'
+import "./styles.scss";
 
-const GlobalServiceMessage =()=>{
-    return (
-        <>
-            <SettingsList/>
-        </>
-    )
+const GlobalServiceMessage = () => {
+  const ButtonLabel = "Add global service message";
+  let history = useHistory()
+  const showMessageCreationComponent =()=>{
+    history.push('/settings/create-global-service-message')
+    console.log('am clicked')
 }
-export default GlobalServiceMessage
+  return (
+    <>
+      <EmptySettings reminder="No messages are configured for the customer segment">
+        <SettingsButton ButtonLabel={ButtonLabel} onclick={showMessageCreationComponent}/>
+      </EmptySettings>
+    </>
+  );
+};
+export default GlobalServiceMessage;

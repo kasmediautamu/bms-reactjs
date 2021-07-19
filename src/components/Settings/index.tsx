@@ -9,6 +9,7 @@ import ReactTooltip from "react-tooltip";
 import {  useLocation } from "react-router";
 
 import "./styles.scss";
+import SettingsButton from "./SettingsButton";
 
 
 const Settings = () => {
@@ -63,7 +64,7 @@ const Settings = () => {
             <p>Bank level limits maintenance</p>
           </div>
           <div>
-            <SettingsButton />
+            <SettingsButton ButtonLabel={ButtonLabel} />
           </div>
         </div>
       );
@@ -81,7 +82,7 @@ const Settings = () => {
       return (
         <div className="settings__details--list">
           <EmptySettings reminder="No limits added. Please add bank level limit here. Addtional info lorem ipsum goes here">
-            <SettingsButton />
+            <SettingsButton ButtonLabel={ButtonLabel}/>
           </EmptySettings>
         </div>
       );
@@ -90,13 +91,7 @@ const Settings = () => {
     }
   }
 
-  function SettingsButton() {
-    return (
-      <Button btnClass="settings-button" disabled primary="button">
-        {ButtonLabel}
-      </Button>
-    );
-  }
+  
   function SettingsDetilsList() {
     return (
       <div className="settings__list">
